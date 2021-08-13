@@ -19,15 +19,21 @@ body
   background-repeat: no-repeat;
   background-size: cover;
   background-color:transparent;
-  display: inline;
+  display: block;
 }
 
+body header{
+  height: 25vh;
+
+}
 body header .ContHero
 {
+  margin-top: 10vh;
   border-radius: 200px;
-  height: 200px;
-  width: 200px;
+  height: 20em;
+  width: 20em;
 }
+
 .ContHero picture{
   height: inherit;
   width: inherit;
@@ -37,6 +43,10 @@ body header .ContHero
   border-radius:200px;
   height: inherit;
   width:inherit;
+}
+
+body section{
+  height: 50vh;
 }
 header h1
 {
@@ -59,8 +69,7 @@ body section .ContItem
 
 body footer
 {
-  border: 1px solid white;
-  height: 5em;
+  height: 10vh;
   text-align: center;
   padding-top: 2em;
 }
