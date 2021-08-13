@@ -1,0 +1,74 @@
+*
+{
+  margin: 0px auto;
+  padding: 0px;
+  font-family: 'Bebas Neue',sans-serif;
+  font-weight: 200;
+  font-variant:
+}
+
+@font-face {
+  font-family: BebasNeuePro-Light;
+  src: local(../means/BebasNeuePro-Light.ttf);
+  font-weight: normal;
+}
+
+body
+{
+  background-image:url("../means/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color:transparent;
+  display: inline;
+}
+
+body header .ContHero
+{
+  border-radius: 200px;
+  height: 200px;
+  width: 200px;
+}
+.ContHero picture{
+  height: inherit;
+  width: inherit;
+}
+.ContHero picture img
+{
+  border-radius:200px;
+  height: inherit;
+  width:inherit;
+}
+header h1
+{
+  text-align: center;
+}
+body section .ContItem
+{
+  width: 60%;
+}
+.ContItem .item
+{
+  display: flex;
+}
+.ContItem .item a
+{
+  text-align: center;
+  align-items: center;
+
+}
+
+body footer
+{
+  border: 1px solid white;
+  height: 5em;
+  text-align: center;
+  padding-top: 2em;
+}
+body footer .date
+{
+  color: white;
+  font-size: 0.8em;
+  font-family: Bebas Neue Pro-Ligth;
+}
+
+.material-icons.md-18 { font-size: 0.8em; }
